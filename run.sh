@@ -1,8 +1,8 @@
 #!/bin/sh
 
-container=2016-spie-itk
-image=insighttoolkit/simpleitk-notebooks:2016-spie
-image_archive=2016-SPIE-MI-ITK-Course-Notebooks.tar
+container=2017-spie-itk
+image=insighttoolkit/simpleitk-notebooks:2017-spie
+image_archive=2017-SPIE-MI-ITK-Course-Notebooks.tar
 port=8888
 extra_run_args=""
 develop=""
