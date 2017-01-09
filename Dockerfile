@@ -20,4 +20,5 @@ ADD "*.py" ./
 ADD Data ./Data
 ADD Output ./Output
 RUN sudo pip3 install -r requirements.txt
+RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
 RUN sudo chown -R jovyan.jovyan ./*
